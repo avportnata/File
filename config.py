@@ -29,7 +29,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.gplinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "79783ab175841584f01dfd3b898ee061e797cfea")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 1200)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 60)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_Download_7x/32")
 
